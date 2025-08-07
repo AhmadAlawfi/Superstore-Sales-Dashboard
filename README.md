@@ -10,8 +10,9 @@ The dashboard is designed to offer a quick, at-a-glance understanding of Superst
 
 ### Screenshot of the Dashboard:
 
-file:///C:/Users/Ahmad.Alawfi/AppData/Local/Temp/Power%20BI%20Desktop/print-job-27d49ff9-6f5d-40fb-828f-997177b2fb09/Superstore_Sales_Dashboard.pdf
+[Superstore_Sales_Dashboard.pdf](https://github.com/user-attachments/files/21664210/Superstore_Sales_Dashboard.pdf)
 ---
+
 
 ## About the Data 📦
 
