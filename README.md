@@ -10,7 +10,7 @@ The dashboard is designed to offer a quick, at-a-glance understanding of Superst
 
 ### Screenshot of the Dashboard:
 
-[Superstore_Sales_Dashboard.pdf](https://github.com/user-attachments/files/21664210/Superstore_Sales_Dashboard.pdf)
+<img width="653" height="370" alt="image" src="https://github.com/user-attachments/assets/cc72ee5f-a09e-4467-866e-730873c803b7" />
 ---
 
 
