@@ -65,7 +65,7 @@ To interact with this dashboard:
 
 1.  **Download Power BI Desktop:** If you don't have it, download and install it from the [official Microsoft Power BI website](https://powerbi.microsoft.com/desktop/).
     Alternatively, you can download the repository as a ZIP file.
-2.  **Open the `.pbix` file:** Navigate to the downloaded folder and open the `Superstore_Sales_Dashboard.pbix` file (or whatever you named your Power BI file) with Power BI Desktop.
+2.  **Open the `.pbix` file:** Navigate to the downloaded folder and open the `Superstore_Sales_Dashboard.pbix` with Power BI Desktop.
 3.  **Explore:** Once opened, you can interact with the charts, apply filters by clicking on visual elements, and drill down into the data to explore various insights.
 
 ---
