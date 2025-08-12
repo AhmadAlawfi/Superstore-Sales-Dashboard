@@ -1,88 +1,61 @@
-# Superstore Sales Performance Dashboard 📊
+# Superstore Sales Performance Dashboard
 
-This repository hosts an interactive sales performance dashboard built using **Microsoft Power BI Desktop**. It leverages the well-known Kaggle Superstore dataset to provide a comprehensive overview of sales data, enabling quick insights into key business metrics, trends, and performance drivers.
+Developed during my Data & Digital internship at Protiviti, this project features an interactive sales performance dashboard built using Microsoft Power BI Desktop. The dashboard analyzes the publicly available Superstore dataset from Kaggle, applying professional-grade data cleaning, modeling, and visualization techniques to simulate a real-world business scenario.
 
----
+## Project Overview
 
-## Dashboard Overview ✨
+The dashboard provides comprehensive insights into Superstore's sales data, including key performance metrics such as total sales, profit margins, product category performance, and shipping efficiency. Designed with multiple interactive elements like slicers and filters, it enables dynamic exploration and supports data-driven decision-making.
 
-The dashboard is designed to offer a quick, at-a-glance understanding of Superstore's sales performance. It features key performance indicators (KPIs), sales breakdowns by various dimensions, and trend analysis.
+## Dashboard Preview
 
-### Screenshot of the Dashboard:
+![Superstore Sales Dashboard](https://github.com/AhmadAlawfi/Superstore-Sales-Dashboard/blob/main/SalesDashboard.png)
 
-<img width="653" height="370" alt="image" src="https://github.com/user-attachments/assets/cc72ee5f-a09e-4467-866e-730873c803b7" />
----
+This screenshot highlights key elements such as:
 
+- Sales and profit trends over time  
+- Breakdown of sales by product category and region  
+- Analysis of shipping modes and their impact on delivery times  
+- Interactive slicers to filter data dynamically  
 
-## About the Data 📦
+## Features
 
-The dashboard utilizes the **Kaggle Superstore Dataset**, a popular dataset for practicing data analysis and visualization. It typically contains detailed transactional information, including:
+- Interactive sales and profit trend analysis by region, category, and time.  
+- Visualization of shipping modes and their impact on delivery performance.  
+- Use of advanced DAX calculations for dynamic KPI measures.  
+- Cleaned and modeled data to ensure accuracy and performance.
 
-* **Sales and Profit figures**
-* **Order and Ship Dates**
-* **Customer and Product details**
-* **Geographical information** (Region, State, City)
-* **Product Categories and Sub-Categories**
-* **Customer Segments**
+## Data Source
 
-The dataset was cleaned and prepared within Power BI's Power Query Editor to ensure data quality and usability for analysis.
+The dataset used is the **Superstore Sales** data, publicly available on [Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-superstore). This project focuses on the dashboards, calculations, and visualizations I created and does not alter or redistribute the dataset itself.
 
----
+## Repository Contents
 
-## Key Features & Insights 🔍
+- `Superstore_Sales_Dashboard.pbix` – Power BI project file with all dashboards and data modeling.  
+- `Sample - Superstore.csv` – Sample data file used for analysis.  
+- `SalesDashboard.png` – Screenshot showcasing the dashboard design.
 
-The dashboard is structured to provide the following insights:
+## How to Use
 
-* **Key Performance Indicators (KPIs):**
-    * **Current Year Sales:** Total sales for the current period.
-    * **Total Sales Previous Year:** Sales performance from the prior year for comparison.
-    * **Avg Sales Per Unit:** Average revenue generated per item sold.
-    * **Sales YoY Growth %:** Year-over-Year growth percentage, indicating performance improvement or decline.
-* **Sales Analytics:**
-    * **Sum of Sales by Category:** A bar chart visualizing sales distribution across different product categories (e.g., Technology, Furniture, Office Supplies).
-    * **Sum of Sales by Segment:** A donut chart illustrating the proportion of sales contributed by different customer segments (e.g., Consumer, Corporate, Home Office).
-    * **Sum of Sales by Product Name (Top N):** A bar chart highlighting the top-selling products by total sales, allowing identification of best-performing items.
-* **Sales Trend Analysis:**
-    * **Sum of Sales and Total Sales Previous Year by Month:** A line chart comparing current year sales against previous year sales on a monthly basis, useful for identifying seasonal patterns and growth trajectories.
+1. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).  
+2. Clone or download this repository.  
+3. Open the `Superstore_Sales_Dashboard.pbix` file in Power BI Desktop.  
+4. Load the sample data from `Sample - Superstore.csv` if necessary.  
+5. Interact with slicers and filters to explore sales insights.
 
----
+## License
 
-## Interactivity 💡
-
-This Power BI dashboard is **interactive by default**. While explicit slicers are not visible in the screenshot, clicking on any data point within a visual (e.g., a specific category in the bar chart or a segment in the donut chart) will **cross-filter** or **cross-highlight** all other visuals on the page, allowing for dynamic exploration of the data.
+This project is licensed under the MIT License.
 
 ---
 
-## Tools Used 🛠️
-
-* **Microsoft Power BI Desktop:** Used for data import, transformation (Power Query), data modeling (DAX measures), and dashboard visualization.
+**Data Source Notice:** The Superstore dataset is publicly available from Kaggle and is subject to its original license. This repository’s license applies only to the dashboards, reports, and code developed by me.
 
 ---
 
-## How to Use This Dashboard 🚀
+## About Me
 
-To interact with this dashboard:
-
-1.  **Download Power BI Desktop:** If you don't have it, download and install it from the [official Microsoft Power BI website](https://powerbi.microsoft.com/desktop/).
-    Alternatively, you can download the repository as a ZIP file.
-2.  **Open the `.pbix` file:** Navigate to the downloaded folder and open the `Superstore_Sales_Dashboard.pbix` with Power BI Desktop.
-3.  **Explore:** Once opened, you can interact with the charts, apply filters by clicking on visual elements, and drill down into the data to explore various insights.
+I completed this project as part of my internship at Protiviti, gaining hands-on experience in data visualization, BI dashboard development, and business analytics using Power BI.
 
 ---
 
-## Future Enhancements (Ideas for Iteration) 📈
-
-* Adding **explicit slicers** (e.g., for Region, Date Range, or Customer Segment) to provide more intuitive and direct filtering controls for users.
-* Implementing **Profitability Analysis** by adding profit-related KPIs and charts.
-* Creating a **Customer Segmentation** view to analyze customer demographics and purchasing behavior in more detail.
-* Incorporating **Geographical Analysis** using map visuals to show sales by region or state.
-* Adding **What-if Parameters** for scenario analysis.
-
----
-
-## Connect with Me 👋
-
-Feel free to connect with me if you have any questions or feedback on this dashboard!
-
-* **GitHub:** [https://github.com/AhmadAlawfi]
-* **LinkedIn:** [https://www.linkedin.com/in/ahmad-alawfi-521a2a324/]
+If you have any questions or feedback, feel free to contact me!
