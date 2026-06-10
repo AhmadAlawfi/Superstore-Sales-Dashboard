@@ -1,6 +1,6 @@
 # Superstore Sales Performance Dashboard
 
-Developed during my Data & Digital internship at Protiviti, this project features an interactive sales performance dashboard built using Microsoft Power BI Desktop. The dashboard analyzes the publicly available Superstore dataset from Kaggle, applying professional-grade data cleaning, modeling, and visualization techniques to simulate a real-world business scenario.
+This Power BI dashboard was developed as part of an internship assignment at Protiviti using the publicly available Superstore dataset from Kaggle. It demonstrates data cleaning, modeling, DAX measures, and visual storytelling to analyze sales, profit, regional performance, product categories, and shipping trends.
 
 ## Project Overview
 
@@ -23,6 +23,14 @@ This screenshot highlights key elements such as:
 - Visualization of shipping modes and their impact on delivery performance.  
 - Use of advanced DAX calculations for dynamic KPI measures.  
 - Cleaned and modeled data to ensure accuracy and performance.
+
+## Technical Highlights
+
+- Cleaned and prepared the Superstore dataset using Power Query.
+- Built a simple analytical data model to support sales, profit, regional, category, and shipping analysis.
+- Created DAX measures for key metrics such as total sales, total profit, profit margin, and performance trends.
+- Designed interactive report pages with slicers and filters to allow users to explore sales performance by region, category, segment, and time period.
+- Applied dashboard design principles to present business insights clearly and support decision-making.
 
 ## Data Source
 
